@@ -1,7 +1,7 @@
 {
   "name": "cga",
   "version": "1.0.0",
-  "description": "computational geometry algorithms & data structures",
+  "description": "Computational Geometry Algorithms in Javascript!",
   "main": "cga.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
