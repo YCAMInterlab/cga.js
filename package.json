@@ -1,0 +1,34 @@
+{
+  "name": "cga",
+  "version": "1.0.0",
+  "description": "computational geometry algorithms & data structures",
+  "main": "cga.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaali/cga.js.git"
+  },
+  "keywords": [
+    "computational",
+    "geometry",
+    "design",
+    "algorithms",
+    "convex",
+    "hull",
+    "triangulate",
+    "webgl",
+    "graphics",
+    "hemesh"
+  ],
+  "author": "Syed Reza Ali <syed.reza.ali@gmail.com> (http://www.syedrezaali.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rezaali/cga.js/issues"
+  },
+  "homepage": "https://github.com/rezaali/cga.js#readme",
+  "dependencies": {
+    "gl-matrix": "^2.3.1"
+  }
+}
