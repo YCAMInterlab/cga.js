@@ -1,5 +1,4 @@
 var isEqual = require('./is-equal-2d');
-var intersects = require('./intersects-2d');
 var intersectsProper = require('./intersects-proper-2d');
 
 module.exports = function( a, b, polygon ) {
