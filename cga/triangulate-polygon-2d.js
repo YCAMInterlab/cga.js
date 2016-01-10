@@ -21,9 +21,10 @@ module.exports = function( polygon ) {
       if( ears[ lookups[ v2 ] ] ) {
         v4 = ( v2 + 2 ) % llen;
         v3 = ( v2 + 1 ) % llen;
+        //v2//
         v1 = ( v2 - 1 );
         v1 = v1 < 0 ? llen + v1 : v1;
-        v0 = ( v2 - 2 );
+        v0 = v1 - 1;
         v0 = v0 < 0 ? llen + v0 : v0;
 
         v0 = v0 % llen;
@@ -36,12 +37,13 @@ module.exports = function( polygon ) {
         ears[ lookups[ v3 ] ] = isDiagonal( lookups[ v1 ], lookups[ v4 ], polys );
         cells.push( [ lookups[ v2 ], lookups[ v3 ], lookups[ v1 ] ] );
         lookups.splice( v2, 1 );
+        console.log( lookups );
         end = v3;
         n--;
         break;
       }
       v2++;
-      } while ( v2 != end );
+    } while ( v2 != end );
   }
   cells.push( [ lookups[ 1 ], lookups[ 2 ], lookups[ 0 ] ] )
   return cells;
