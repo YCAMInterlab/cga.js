@@ -36,8 +36,7 @@ module.exports = function( polygon ) {
         ears[ lookups[ v1 ] ] = isDiagonal( lookups[ v0 ], lookups[ v3 ], polys );
         ears[ lookups[ v3 ] ] = isDiagonal( lookups[ v1 ], lookups[ v4 ], polys );
         cells.push( [ lookups[ v2 ], lookups[ v3 ], lookups[ v1 ] ] );
-        lookups.splice( v2, 1 );
-        console.log( lookups );
+        lookups.splice( v2, 1 );        
         end = v3;
         n--;
         break;
