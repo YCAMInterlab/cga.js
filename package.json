@@ -1,6 +1,6 @@
 {
   "name": "cga",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Computational Geometry Algorithms in Javascript!",
   "main": "index.js",
   "scripts": {
