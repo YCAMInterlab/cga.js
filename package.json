@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rezaali/cga.js.git"
+    "url": "git+https://github.com/YCAMInterlab/cga.js.git"
   },
   "keywords": [
     "computational",
@@ -25,9 +25,9 @@
   "author": "Syed Reza Ali <syed.reza.ali@gmail.com> (http://www.syedrezaali.com/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/rezaali/cga.js/issues"
+    "url": "https://github.com/YCAMInterlab/cga.js/issues"
   },
-  "homepage": "https://github.com/rezaali/cga.js#readme",
+  "homepage": "https://github.com/YCAMInterlab/cga.js#readme",
   "dependencies": {
     "gl-matrix": "^2.3.1"
   }
