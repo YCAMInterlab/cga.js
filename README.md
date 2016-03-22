@@ -1,4 +1,4 @@
-## Computational Geometry Algorithms
+## WIP: Computational Geometry Algorithms (Come Back Later)
 ---
 
 ## Synopsis
