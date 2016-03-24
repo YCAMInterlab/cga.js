@@ -28,11 +28,13 @@ var cga = require('cga');
 var results = cga.triangulatePolygon2(positions);
 ```
 
+<center>
 <p style="text-align: center;">
 <img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="320">
 
 <img src="https://cloud.githubusercontent.com/assets/555207/14010637/31d9beae-f154-11e5-8496-da151ca6bab6.png" width="320">
 </p>
+</center>
 
 The example below shows how to [offset](http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf) a simple polygon made from a nested array of 2D points:  
 ```js
