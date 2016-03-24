@@ -66,9 +66,7 @@ npm install --save cga
 ```
 
 ## Examples
-```
-npm runs examples
-```
+See https://github.com/rezaali/webgl-sketches/tree/master/hull
 
 ## Contribution
 Copyright 2015-2016 [Reza Ali](http://www.syedrezaali.com) co-developed by [YCAMInterLab](http://interlab.ycam.jp/en/) during the [Guest Research Project v.3](http://interlab.ycam.jp/en/projects/guestresearch/vol3)
