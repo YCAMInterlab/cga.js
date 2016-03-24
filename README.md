@@ -14,9 +14,9 @@ var results = cga.convexHull2(positions);
 ```
 
 <p style="text-align: center;">
-<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="490">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="480">
 
-<img src="https://cloud.githubusercontent.com/assets/555207/14010636/31d94938-f154-11e5-8b7e-ec616fb74791.png" width="490">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010636/31d94938-f154-11e5-8b7e-ec616fb74791.png" width="480">
 </p>
 
 The example below shows how to [triangulate](https://en.wikipedia.org/wiki/Polygon_triangulation) a simple polygon made from a nested array of 2D points:  
@@ -29,9 +29,9 @@ var results = cga.triangulatePolygon2(positions);
 ```
 
 <p style="text-align: center;">
-<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="490">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="480">
 
-<img src="https://cloud.githubusercontent.com/assets/555207/14010637/31d9beae-f154-11e5-8496-da151ca6bab6.png" width="490">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010637/31d9beae-f154-11e5-8496-da151ca6bab6.png" width="480">
 </p>
 
 The example below shows how to [offset](http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf) a simple polygon made from a nested array of 2D points:  
@@ -44,8 +44,8 @@ var results = cga.expandPolygon(positions);
 ```
 
 <p style="text-align: center;">
-<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="490">
-<img src="https://cloud.githubusercontent.com/assets/555207/14010635/31d8f83e-f154-11e5-906e-cc87b071fbed.png" width="490">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="480">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010635/31d8f83e-f154-11e5-906e-cc87b071fbed.png" width="480">
 </p>
 
 ## Motivation
