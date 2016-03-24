@@ -1,4 +1,4 @@
-## WIP: Computational Geometry Algorithms (Come Back Later)
+## Computational Geometry Algorithms in Javascript
 
 ## Synopsis
 cga.js is a collection of basic computational geometry algorithms written in javascript. A couple algorithms include the convex hull of points, line intersection, triangulation, and polygon expansion. It also contains many of the smaller algorithms found in [Computational Geometry in C by Joseph O'Rourke](http://www.amazon.com/Computational-Geometry-Cambridge-Theoretical-Paperback/dp/0521649765)
@@ -13,9 +13,13 @@ var cga = require('cga');
 var results = cga.convexHull2(positions);
 ```
 
-![img](http://placecorgi.com/512)
+<p style="text-align: center;">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="320">
 
-The code below shows how to [triangulate](https://en.wikipedia.org/wiki/Polygon_triangulation) a simple polygon made from a nested array of 2D points:  
+<img src="https://cloud.githubusercontent.com/assets/555207/14010636/31d94938-f154-11e5-8b7e-ec616fb74791.png" width="320">
+</p>
+
+The example below shows how to [triangulate](https://en.wikipedia.org/wiki/Polygon_triangulation) a simple polygon made from a nested array of 2D points:  
 ```js
 // Given an array of points in cartesian coordinates [x,y]  
 var positions = [[x,y],[x,y],[x,y],...];
@@ -24,7 +28,25 @@ var cga = require('cga');
 var results = cga.triangulatePolygon2(positions);
 ```
 
-![img](http://placecorgi.com/511)
+<p style="text-align: center;">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="320">
+
+<img src="https://cloud.githubusercontent.com/assets/555207/14010637/31d9beae-f154-11e5-8496-da151ca6bab6.png" width="320">
+</p>
+
+The example below shows how to [offset](http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf) a simple polygon made from a nested array of 2D points:  
+```js
+// Given an array of points in cartesian coordinates [x,y]  
+var positions = [[x,y],[x,y],[x,y],...];
+var cga = require('cga');
+// This function will return a nested array of triangle vertex indices.
+var results = cga.expandPolygon(positions);
+```
+
+<p style="text-align: center;">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010638/31d9cf5c-f154-11e5-821e-6aa2db74d1d5.png" width="320">
+<img src="https://cloud.githubusercontent.com/assets/555207/14010635/31d8f83e-f154-11e5-906e-cc87b071fbed.png" width="320">
+</p>
 
 ## Motivation
 This library is part of a larger project / series of libraries that aspires to bring computational and parametric design to the web. This library aspires to be the mathematical mind that powers all types of complex geometry operations that enable higher level computational design, 3d printing, g-code generation, cnc milling tool path creation, laser cutting paths, robotic motion planning, and more.
@@ -43,11 +65,10 @@ or via npm:
 npm install --save cga
 ```
 
-## Documentation
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
 ## Examples
-Describe and show how to run the tests with code examples.
+```
+npm runs examples
+```
 
 ## Contribution
 Copyright 2015-2016 [Reza Ali](http://www.syedrezaali.com) co-developed by [YCAMInterLab](http://interlab.ycam.jp/en/) during the [Guest Research Project v.3](http://interlab.ycam.jp/en/projects/guestresearch/vol3)
